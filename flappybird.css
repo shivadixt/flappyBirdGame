@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    font-family: "Merriweather", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url("./assets/BG.png");
+}
+#board{
+    background-image: url("./assets/BG.png");
+    background-size: cover;
+    width: 100%;
+    max-width: 360px;
+    max-height: 90vh;
+    aspect-ratio: 9 / 16;
+}
+
